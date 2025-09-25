@@ -1,0 +1,62 @@
+   html,body {
+      margin: 0;
+      padding: 0;
+      overflow-x: hidden;
+    }
+      body, h1, h2, h3, h4, h5, h6, p, a, button, li {
+      font-family: 'Roboto', sans-serif;
+    }
+    /* ✅ Ensure carousel images fill properly */
+    .carousel-inner img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    /* ✅ Remove extra space caused by row negative margins */
+    .row {
+      margin-left: 0;
+      margin-right: 0;
+    }
+
+    /* ✅ Prevent carousel from overflowing */
+    .carousel {
+      margin-top: 0;
+      padding-top: 0;
+      overflow: hidden;
+    }
+#Oversized{
+    margin:25px 0 25px 0 ;
+}
+  .back {
+    background-image: url("/photo/Home_Page_Background_Picture_Denim.webp");
+    background-size: cover;      /* makes it cover the whole screen */
+    background-position: center; /* centers the image */
+    background-repeat: no-repeat;
+    width: 100vw;  /* full viewport width */
+    height: 48vh; /* full viewport height */
+    display: flex;                /* enable flexbox */
+    justify-content: center;      /* horizontal center */
+    align-items: center;  
+
+  }
+  .zypwear{
+    padding: 2rem;
+  }
+.card {
+  background: #fff; 
+  border: 1px solid #ddd; 
+  border-radius: 10px;
+  transition: transform 0.4s ease-out, box-shadow 0.4s ease, border-color 0.4s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px) scale(1.05); 
+  box-shadow: 0 20px 30px rgba(0, 0, 255, 0.2); 
+  cursor: pointer;
+}
+
+
+
+
+

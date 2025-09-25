@@ -29,7 +29,7 @@
     margin:25px 0 25px 0 ;
 }
   .back {
-    background-image: url("/photo/Home_Page_Background_Picture_Denim.webp");
+    background-image: url("/photo/cardback.webp");
     background-size: cover;      /* makes it cover the whole screen */
     background-position: center; /* centers the image */
     background-repeat: no-repeat;
